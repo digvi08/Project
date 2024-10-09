@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("real.jpg");
+    background-size: cover;
+    opacity: 0.95;
+    
+}
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 6rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+h1 {
+    text-align: center;
+}
+input[type="file"] {
+    display: block;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#result {
+    margin-top: 20px;
+}
+img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#upload{
+   height: 30vmin;
+   
+    margin-top: 10px;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+#result{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    
+}

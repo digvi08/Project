@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Quality Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> <h1>Fruit Quality Detection</h1> </div>
+       <div id="upload"><form id="uploadForm">
+           <div id="1"> Upload Fruit Image:
+            <input type="file" id="fruitImage" name="fruitImage" accept="image/*" required></div>
+           <div id="2"> <label for="fruitType">Select Fruit Type:</label>
+            <select id="fruitType" name="fruitType" required>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+                <option value="grapes">Grapes</option>
+                <option value="chickoo">Chickoo</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="mango">Mango</option>
+                <option value="orange">Orange</option>
+                <option value="strawberry">Strawberry</option>
+            </select></div>
+            <button type="submit">Check Quality</button></div>
+        </form></div>
+        <div id="result">REs</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
